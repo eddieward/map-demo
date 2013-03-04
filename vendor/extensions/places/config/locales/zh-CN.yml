@@ -1,0 +1,35 @@
+zh-CN:
+  refinery:
+    plugins:
+      places:
+        title: Places
+    places:
+      admin:
+        places:
+          actions:
+            create_new: 建立新的 Place
+            reorder: 对 Places 重新排序
+            reorder_done: 对 Places 的重新排序结束
+          records:
+            title: Places
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Places yet. Click "Add New Place" to add your first place.
+            no_items_yet: 目前没有 Places . 点击 "Add New Place" 创建一个place.
+          place:
+            view_live_html: 查看 place 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 place
+            delete: 永久删除 place
+      places:
+        show:
+          other: 其他 Places
+  activerecord:
+    attributes:
+      'refinery/places/place':
+        title: Title
+        description: Description
+        address: Address
+        latitude: Latitude
+        longitude: Longitude
+        image: Image
+        show: Show

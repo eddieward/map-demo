@@ -1,0 +1,34 @@
+es:
+  refinery:
+    plugins:
+      places:
+        title: Places
+#        article: masculino/femenino
+    places:
+      admin:
+        places:
+          actions:
+            create_new: Crear nuevo place
+            reorder: Reordenar places
+            reorder_done: Reordenación de places completada
+          records:
+            title: Places
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay places todavía. Pulsa en "Crear nuevo Place" para crear tu primer place.
+          place:
+            view_live_html: Ver este place como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este place
+            delete: Borrar este place para siempre
+      places:
+        show:
+          other: Otros places
+  activerecord:
+    attributes:
+      'refinery/places/place':
+        title: Title
+        description: Description
+        address: Address
+        latitude: Latitude
+        longitude: Longitude
+        image: Image
+        show: Show

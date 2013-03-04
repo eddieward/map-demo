@@ -1,0 +1,33 @@
+nb:
+  refinery:
+    plugins:
+      places:
+        title: Places
+    places:
+      admin:
+        places:
+          actions:
+            create_new: Lag en ny Place
+            reorder: Endre rekkefølgen på Places
+            reorder_done: Ferdig å endre rekkefølgen Places
+          records:
+            title: Places
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Places enda. Klikk på "Lag en ny Place" for å legge til din første place.
+          place:
+            view_live_html: Vis hvordan denne place ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne place
+            delete: Fjern denne place permanent
+      places:
+        show:
+          other: Andre Places
+  activerecord:
+    attributes:
+      'refinery/places/place':
+        title: Title
+        description: Description
+        address: Address
+        latitude: Latitude
+        longitude: Longitude
+        image: Image
+        show: Show

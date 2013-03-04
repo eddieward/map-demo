@@ -1,0 +1,33 @@
+nl:
+  refinery:
+    plugins:
+      places:
+        title: Places
+    places:
+      admin:
+        places:
+          actions:
+            create_new: Maak een nieuwe Place
+            reorder: Wijzig de volgorde van de Places
+            reorder_done: Klaar met het wijzingen van de volgorde van de Places
+          records:
+            title: Places
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Places. Druk op 'Maak een nieuwe Place' om de eerste aan te maken.
+          place:
+            view_live_html: Bekijk deze place op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze place
+            delete: Verwijder deze place voor eeuwig
+      places:
+        show:
+          other: Andere Places
+  activerecord:
+    attributes:
+      'refinery/places/place':
+        title: Title
+        description: Description
+        address: Address
+        latitude: Latitude
+        longitude: Longitude
+        image: Image
+        show: Show

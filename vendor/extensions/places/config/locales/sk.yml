@@ -1,0 +1,33 @@
+sk:
+  refinery:
+    plugins:
+      places:
+        title: Places
+    places:
+      admin:
+        places:
+          actions:
+            create_new: Pridať Place
+            reorder: Preusporiadať Places
+            reorder_done: Koniec radenia Places
+          records:
+            title: Places
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne Places. Kliknite na "Pridať Place" pre pridanie prvého place.
+          place:
+            view_live_html: Zobraziť náhľad place<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť place
+            delete: Zmazať place
+      places:
+        show:
+          other: Daľšie Places
+  activerecord:
+    attributes:
+      'refinery/places/place':
+        title: Title
+        description: Description
+        address: Address
+        latitude: Latitude
+        longitude: Longitude
+        image: Image
+        show: Show

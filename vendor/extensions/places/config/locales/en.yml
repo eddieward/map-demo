@@ -1,0 +1,33 @@
+en:
+  refinery:
+    plugins:
+      places:
+        title: Places
+    places:
+      admin:
+        places:
+          actions:
+            create_new: Add New Place
+            reorder: Reorder Places
+            reorder_done: Done Reordering Places
+          records:
+            title: Places
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Places yet. Click "Add New Place" to add your first place.
+          place:
+            view_live_html: View this place live <br/><em>(opens in a new window)</em>
+            edit: Edit this place
+            delete: Remove this place forever
+      places:
+        show:
+          other: Other Places
+  activerecord:
+    attributes:
+      'refinery/places/place':
+        title: Title
+        description: Description
+        address: Address
+        latitude: Latitude
+        longitude: Longitude
+        image: Image
+        show: Show

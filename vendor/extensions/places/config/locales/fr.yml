@@ -1,0 +1,33 @@
+fr:
+  refinery:
+    plugins:
+      places:
+        title: Places
+    places:
+      admin:
+        places:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Place
+            reorder: Réordonner les Places
+            reorder_done: Fin de réordonnancement des Places
+          records:
+            title: Places
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Place. Cliquer sur "Créer un(e) nouve(au/l/lle) Place" pour créer votre premi(er/ère) place.'
+          place:
+            view_live_html: Voir ce(t/tte) place <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) place
+            delete: Supprimer définitivement ce(t/tte) place
+      places:
+        show:
+          other: Autres Places
+  activerecord:
+    attributes:
+      'refinery/places/place':
+        title: Title
+        description: Description
+        address: Address
+        latitude: Latitude
+        longitude: Longitude
+        image: Image
+        show: Show
