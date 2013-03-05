@@ -10,6 +10,10 @@ module Refinery
       validates :title, :presence => true, :uniqueness => true
 
       belongs_to :image, :class_name => '::Refinery::Image'
+
+      geocoded_by :address
+      after_validation :geocode, :if => :address_changed?
+
     end
   end
 end

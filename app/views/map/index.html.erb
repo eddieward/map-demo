@@ -1,2 +1,23 @@
-<h1>Map#index</h1>
-<p>Find me in app/views/map/index.html.erb</p>
+
+
+  <div id="toolbar">
+    <h3 class="muted"> Places on the Map</h3>
+  </div>
+
+  <div id="map-content">
+    <div id="map-wrapper">
+      <div id="map"></div>
+    </div>
+    <div id="sidebar">
+      <ul id="sidebar-list">
+        <% @places.each do |place| %>
+            <li id="sidebar-item-<%= place.id %>">
+              <%= link_to_function "#{place.title}", "focusPoint(#{place.id})" %>
+            </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+
+
+
