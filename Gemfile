@@ -56,5 +56,9 @@ gem 'refinerycms-i18n', '~> 2.0.0'
 
 gem 'refinerycms-places', :path => 'vendor/extensions'
 
-# map
+# gems needed for map and heroku
 gem 'geocoder'
+
+group :production do
+ gem 'fog'
+end
