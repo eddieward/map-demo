@@ -60,5 +60,5 @@ gem 'refinerycms-places', :path => 'vendor/extensions'
 gem 'geocoder'
 
 group :production do
- gem 'fog'
+  gem 'fog', '1.4.0'
 end

@@ -57,12 +57,12 @@ GEM
       multi_json (~> 1.0)
       rack
     erubis (2.7.0)
-    excon (0.19.5)
+    excon (0.14.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    fog (1.9.0)
+    fog (1.4.0)
       builder
-      excon (~> 0.14)
+      excon (~> 0.14.0)
       formatador (~> 0.2.0)
       mime-types
       multi_json (~> 1.0)
@@ -208,7 +208,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  fog
+  fog (= 1.4.0)
   geocoder
   jquery-rails (~> 2.0.0)
   pg
